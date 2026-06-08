@@ -240,7 +240,7 @@ export default function Index() {
                 className="font-montserrat text-xs font-medium uppercase tracking-[0.2em] mb-6 block"
                 style={{ color: "var(--color-olive-dark)" }}
               >
-                Практики осознанности · Солнечногорск и онлайн
+                Практики осознанности · Россия и весь мир
               </span>
             </div>
             <h1
@@ -830,7 +830,7 @@ export default function Index() {
               className="font-montserrat text-sm mt-4"
               style={{ color: "var(--color-bark-light)" }}
             >
-              Отвечаю в течение 2–4 часов
+              Работаю онлайн и очно — прилечу в любую точку России и мира. Отвечаю в течение 2–4 часов
             </p>
           </FadeSection>
 
@@ -1094,7 +1094,7 @@ export default function Index() {
               className="font-montserrat text-xs mt-1"
               style={{ color: "rgba(245,241,232,0.5)" }}
             >
-              Практики осознанности · Солнечногорск и онлайн
+              Практики осознанности · Россия и весь мир
             </p>
           </div>
           <p
