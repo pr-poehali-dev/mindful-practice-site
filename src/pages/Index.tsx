@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import Icon from "@/components/ui/icon";
 
 const HERO_IMG = "https://cdn.poehali.dev/projects/62ac1cd6-e068-4fbb-ae36-35e6abc26e43/bucket/2f0b83a2-070c-4389-8a93-7525d20292c9.jpg";
@@ -1032,18 +1033,21 @@ export default function Index() {
               {[
                 {
                   title: "Договор-оферта",
-                  body: "ИП Чинцова Амина\nОГРНИП: 322508100218537\nИНН: 352510281200\nг. Солнечногорск, МО",
+                  body: "ИП Чинцова Амина\nОГРНИП: 322508100218537\nИНН: 352510281200",
                   link: "Читать договор →",
+                  tab: "offer",
                 },
                 {
                   title: "Политика конфиденциальности",
                   body: "Обработка данных согласно ФЗ-152 «О персональных данных». Ваши данные не передаются третьим лицам.",
                   link: "Читать политику →",
+                  tab: "privacy",
                 },
                 {
                   title: "Информированное согласие",
                   body: "Перед началом работы вы подписываете согласие, подтверждающее добровольность и осознанность участия.",
-                  link: "Скачать PDF →",
+                  link: "Читать согласие →",
+                  tab: "informed",
                 },
               ].map((d) => (
                 <div
@@ -1066,13 +1070,13 @@ export default function Index() {
                   >
                     {d.body}
                   </p>
-                  <a
-                    href="#"
+                  <Link
+                    to={`/legal?tab=${d.tab}`}
                     className="font-montserrat text-xs"
                     style={{ color: "var(--color-terra-dark)", textDecoration: "underline" }}
                   >
                     {d.link}
-                  </a>
+                  </Link>
                 </div>
               ))}
             </div>
