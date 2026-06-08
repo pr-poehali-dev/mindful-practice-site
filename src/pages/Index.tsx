@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import Icon from "@/components/ui/icon";
 
 const HERO_IMG = "https://cdn.poehali.dev/projects/62ac1cd6-e068-4fbb-ae36-35e6abc26e43/bucket/2f0b83a2-070c-4389-8a93-7525d20292c9.jpg";
-const BANYA_IMG = "https://cdn.poehali.dev/projects/62ac1cd6-e068-4fbb-ae36-35e6abc26e43/files/8cd018f6-1bb1-4df7-80f4-32a97e2d27dd.jpg";
+const BANYA_IMG = "https://cdn.poehali.dev/projects/62ac1cd6-e068-4fbb-ae36-35e6abc26e43/bucket/72bcad6d-afe7-492f-a4ee-9ffb721bce59.jpg";
 
 function useFadeIn() {
   const ref = useRef<HTMLDivElement>(null);
