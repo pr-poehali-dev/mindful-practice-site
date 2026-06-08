@@ -930,20 +930,20 @@ export default function Index() {
                     {
                       emoji: "✈️",
                       title: "Telegram",
-                      sub: "@aminachincova",
-                      href: "https://t.me/aminachincova",
+                      sub: "@AminaChinczova",
+                      href: "https://t.me/AminaChinczova",
                     },
                     {
                       emoji: "💬",
                       title: "WhatsApp",
-                      sub: "+7 (900) 000-00-00",
-                      href: "https://wa.me/79000000000",
+                      sub: "+7 (928) 452-35-99",
+                      href: "https://wa.me/79284523599",
                     },
                     {
                       emoji: "📩",
                       title: "Email",
-                      sub: "amina@example.com",
-                      href: "mailto:amina@example.com",
+                      sub: "aminachinczova@mail.ru",
+                      href: "mailto:aminachinczova@mail.ru",
                     },
                   ].map((c) => (
                     <a
@@ -1107,7 +1107,7 @@ export default function Index() {
           </p>
           <div className="flex gap-6">
             {[
-              { label: "Telegram", href: "https://t.me/aminachincova" },
+              { label: "Telegram", href: "https://t.me/AminaChinczova" },
               { label: "Документы", href: "#legal" },
             ].map((l) => (
               <a
