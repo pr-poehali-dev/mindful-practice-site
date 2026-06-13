@@ -24,7 +24,7 @@ export default function HeroAbout({ menuOpen, setMenuOpen }: HeroAboutProps) {
             className="font-cormorant text-2xl font-medium"
             style={{ color: "var(--color-bark)", letterSpacing: "0.02em" }}
           >
-            Амина Чинцова
+            Ламиела Чинцова
           </a>
           <div className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map((l) => (
@@ -157,7 +157,7 @@ export default function HeroAbout({ menuOpen, setMenuOpen }: HeroAboutProps) {
               >
                 <img
                   src={HERO_IMG}
-                  alt="Амина Чинцова — практики осознанности"
+                  alt="Ламиела Чинцова — практики осознанности"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -240,7 +240,7 @@ export default function HeroAbout({ menuOpen, setMenuOpen }: HeroAboutProps) {
               style={{ color: "var(--color-bark-light)" }}
             >
               Меня зовут{" "}
-              <strong style={{ color: "var(--color-bark)" }}>Амина Чинцова</strong> —
+              <strong style={{ color: "var(--color-bark)" }}>Ламиела Чинцова</strong> —
               сертифицированный специалист по LOK-методу Ольги Гельман. Работаю с дыханием,
               светом и телесными практиками.
             </p>

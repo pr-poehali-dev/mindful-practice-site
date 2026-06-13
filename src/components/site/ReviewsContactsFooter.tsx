@@ -439,7 +439,7 @@ export default function ReviewsContactsFooter({
               className="font-cormorant text-xl font-medium"
               style={{ color: "var(--color-beige)" }}
             >
-              Амина Чинцова
+              Ламиела Чинцова
             </p>
             <p
               className="font-montserrat text-xs mt-1"
